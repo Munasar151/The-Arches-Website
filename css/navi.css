@@ -1,0 +1,83 @@
+#container
+{
+	float:right;
+}
+
+#box
+{
+	margin: 0.5%;
+	padding: 0.5%;
+	border-style: transparent;
+	border-color: red;
+	width: 100%;
+	background-color:transparent;
+	height: 220%;
+	position: absolute;
+	
+
+}
+
+#simnav
+{
+	margin: 0%;
+	padding: 0%;
+	border-style: transparent;
+	border-color: transparent;
+	width: 10%;
+	height: 5%;
+	position: absolute;
+	right:20%;
+	left:23%;
+	top:1%;
+}
+
+#simnav ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color:none;
+	overflow:hidden;
+}
+
+#simnav li a 
+{
+	display:block;
+	
+
+	text-align:center;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	padding-left:1.4;
+	padding-right:1em;
+
+	text-decoration:none;
+	
+}
+
+#simnav li
+{
+float:left;
+border-left:0.2em solid #8c198c;	
+}
+
+.active
+{
+	background-color:#72658b;
+	color:#000;
+}
+
+#simnav li a:hover:not(.active)
+{
+	background-color:#90ee90;
+	color:#fff;
+}
+
+#simnav li:last-child{
+	border-right:none;
+}
+
+#simnav li:first-child
+{
+	border-left:none;
+}

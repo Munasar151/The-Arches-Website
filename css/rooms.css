@@ -1,0 +1,615 @@
+
+body
+{
+	background-color:#cc99cc;
+	overflow-x: hidden;
+}
+
+#footer
+{
+		margin: 0%;
+		padding: 0%;
+		border-style: solid;
+		border-width:0.5%;
+		border-color:#000000;
+		
+		background: #404040;
+		
+		width: 150%;
+		height: 60%;
+		
+		position: absolute;
+		bottom:2%;
+		left: -8.9%;
+		top:110%;
+		
+}
+
+#imageinfo
+{
+	
+		position: absolute;
+		top:23%;
+		left: 1%;
+		
+}
+
+#containere
+{
+	margin: 0;
+	padding: 0;
+	border-style: transparent;
+	border-color: #000;
+	
+	width:90%;
+	height: 120%;
+	
+	position: absolute; 
+	top:22%;
+	left:8%;
+}
+
+#displayOutline
+{
+	margin: 0.5%;
+	padding: 0.5%;
+	border-style: solid;
+	border-color: transparent;
+	
+	width: 60%;
+	height: 90%;
+	
+	position: absolute; 
+	top:10%;
+	left:10%;
+}
+
+
+#mainPic
+{
+	margin: 0.5%;
+	padding: 0.5%;
+	border-style: solid;
+	border-color: transparent;
+	
+	width: 40%;
+	height: 50%;
+	
+	position: absolute; 
+	top:5%;
+	left:30%;
+	
+	border-top-left-radius:25%;
+	border-top-right-radius:25%;
+}
+
+#mainPic img
+{
+	height:100%;
+	width:120%;
+	padding:0;
+	margin:0;
+	
+	border-top-left-radius:25%;
+	border-top-right-radius:25%;
+}
+
+
+#mainTxt
+{
+	margin: 0;
+	padding:0;
+	border-style: solid;
+	border-color: #000;
+	
+	width: 60%;
+	height: 30%;
+	
+	position: absolute; 
+	top:60%;
+	left:26%;
+}
+
+#smallPic
+{
+	margin: 0.5%;
+	padding: 0.5%;
+	border-style: solid;
+	
+	width: 20%;
+	height: 20%;
+	
+	position: absolute; 
+	top:1%;
+	left:1%;
+	
+	border-top-left-radius:25%;
+	border-top-right-radius:25%;
+}
+
+#smallPic img
+{
+	height:98%;
+	width:98%;
+	padding:0;
+	margin:0;
+	
+	border-top-left-radius:25%;
+	border-top-right-radius:25%;
+}
+
+#smallPic1
+{
+	margin: 0.5%;
+	padding: 0.5%;
+	border-style: solid;
+
+	
+	width: 20%;
+	height: 20%;
+	
+	position: absolute; 
+	top:37%;
+	left:1%;
+	
+	border-top-left-radius:25%;
+	border-top-right-radius:25%;
+}
+
+#smallPic1 img
+{
+	height:98%;
+	width:98%;
+	padding:0;
+	margin:0;
+	
+	border-top-left-radius:25%;
+	border-top-right-radius:25%;
+}
+
+#smallPic2
+{
+	margin: 0.5%;
+	padding: 0.5%;
+	border-style: solid;
+	
+	width: 20%;
+	height: 20%;
+	
+	position: absolute; 
+	top:1%;
+	left:95%;
+	border-top-left-radius:25%;
+	border-top-right-radius:25%;
+}
+
+#smallPic2 img
+{
+	height:98%;
+	width:98%;
+	padding:0;
+	margin:0;
+	border-top-left-radius:25%;
+	border-top-right-radius:25%;
+}
+
+
+#smallPic3
+{
+	margin: 0.5%;
+	padding: 0.5%;
+	border-style: solid;	
+	width: 20%;
+	height: 20%;
+	
+	position: absolute; 
+	bottom:5%;
+	left:1%;
+	
+	border-top-left-radius:25%;
+	border-top-right-radius:25%;
+}
+
+#smallPic3 img
+{
+	height:98%;
+	width:98%;
+	padding:0;
+	margin:0;
+	
+	border-top-left-radius:25%;
+	border-top-right-radius:25%;
+}
+
+#smallPic4
+{
+	margin: 0.5%;
+	padding: 0.5%;
+	border-style: solid;
+	
+	width: 20%;
+	height: 20%;
+	
+	position: absolute; 
+	bottom:40%;
+	left:95%;
+	border-top-left-radius:25%;
+	border-top-right-radius:25%;
+}
+
+#smallPic4 img
+{
+	height:98%;
+	width:98%;
+	padding:0;
+	margin:0;
+	border-top-left-radius:25%;
+	border-top-right-radius:25%;
+}
+
+#smallPic5
+{
+	margin: 0.5%;
+	padding: 0.5%;
+	border-style: solid;
+	
+	width: 20%;
+	height: 20%;
+	
+	position: absolute; 
+	bottom:5%;
+	left:95%;
+	border-top-left-radius:25%;
+	border-top-right-radius:25%;
+}
+
+#smallPic5 img
+{
+	height:98%;
+	width:98%;
+	padding:0;
+	margin:0;
+	border-top-left-radius:25%;
+	border-top-right-radius:25%;
+}
+
+
+#fullAdd
+{
+		margin: 0%;
+		padding: 0%;
+		border-style: transparent;
+		border-width:0.5%;
+		border-color:#000000;
+		
+		background: transparent;
+		
+		width: 30%;
+		height: 30%;
+		
+		position: absolute;
+		bottom:2%;
+		left: 50%;
+		top:30%;
+}
+
+#contactDetails
+{
+		margin: 0%;
+		padding: 0%;
+		border-style:transparent;
+		border-width:0.5%;
+		border-color:#000000;
+		
+		background: transparent;
+		
+		width: 50%;
+		height: 75%;
+		
+		position: absolute;
+		bottom:2%;
+		left:1%;
+		top:65%;
+}
+
+
+#building 
+{
+	margin:0;
+	padding:0;
+	border-style:none;
+	border-width:0.5%;
+	border-color:#000000;
+	
+	background:transparent;
+	width:70%;
+	height:60%;
+	float:left;
+	position:absolute;
+	top:5%;
+	left:5%;
+}
+
+#building img
+{
+	width:70%;
+	height:70%;
+}
+
+#home
+{
+	margin:0;
+	padding:0%;
+	border-style:solid;
+	border-width:0.5%;
+	border-color:transparent;
+	background:transparent;
+	width:60%;
+	height:90%;
+	position:absolute;
+	top:65%;
+	left:22%;
+}
+
+
+#contactinfo
+{
+	margin:0%;
+	padding:0%;
+	border-style:solid;
+	border-width:0.5%;
+	border-color:transparent;
+	width:50%;
+	height:28%;
+	position:absolute;
+	bottom:2%;
+	left:0%;
+	top:35%;
+}
+
+#copyright
+{
+	margin:0%;
+	padding:0%;
+	border-style:solid;
+	border-width:0.5%;
+	border-color:transparent;
+	background:transparent;
+	text-align:center;
+	width:50%;
+	height:25%;
+	position:absolute;
+	bottom:2%;
+	right:25%;
+	top:70%;
+}
+	
+#footer img
+{
+		width: 9%;
+		height: 15%;
+		
+		
+		border-style: solid;
+		border-width:1%;
+		border-color:#000000;
+		border-radius:50%;
+		
+		float:left;/* start from the left and put the images next to each other */
+		
+		margin-left:1%;
+		margin-top:3%;
+		top:5%;
+}
+
+#snetwork 
+{
+		
+		margin: 0%;
+		padding: 0%;
+		border-style: solid;
+		border-width:0.5%;
+		border-color:#000000;
+		
+		background:#ee82ee;
+		
+		width: 93%;
+		height: 50	%;
+		
+		position: absolute;
+		bottom: 2%;
+		left:2%;
+		
+	
+}
+
+#snetwork img 
+
+{
+	
+		width: 5%;
+		height: 5%;
+		
+		
+		border-style: solid;
+		border-width:1%;
+		border-color:#000000;
+		border-radius:50%;
+		
+		float:left;/* start from the left and put the images next to each other */
+		
+		margin-left:1%;
+		margin-top:3%;
+	
+}
+
+#logo
+{
+	margin:0;
+	padding:0;
+	border-style:none;
+	border-width:0.5%;
+	border-color:#000000;
+	
+	background:transparent;
+	width:10%;
+	height:10%;
+	
+	position:absolute;
+	top:1%;
+	left:1%;
+}
+
+#logo img
+{
+		width:100%;
+		height:100%;
+}
+
+#building
+{
+	margin:0;
+	padding:0;
+	border-style:none;
+	border-width:0.5%;
+	border-color:#000000;
+	
+	background:transparent;
+	width:70%;
+	height:60%;
+	float:left;
+	position:absolute;
+	top:20%;
+	left:22%;
+	bottom:15%;
+	right:15%;
+}
+
+#building img
+{
+	width:70%;
+	height:70%;
+}
+
+#p
+{
+	margin:0;
+	padding:0%;
+	border-style:solid;
+	border-width:0.5%;
+	border-color:grey;
+	background:transparent;
+	width:60%;
+	height:90%;
+	position:absolute;
+	top:60%;
+	left:22%;
+}
+
+#map
+{
+	margin:0%;
+	padding:0%;
+	border-style:solid;
+	border-width:0.5%;
+	border-color:transparent;
+	background:transparent;
+	width:60%;
+	height:40%;
+	position:absolute;
+	top:30%;
+	left:5%;
+}
+
+#map iframe
+{
+	margin:0;
+	padding:0;
+	
+	width:70%;
+	height:70%;
+}
+
+#slogan
+{
+	margin:0;
+	padding:0%;
+	border-style:solid;
+	border-width:0.5%;
+	border-color:transparent;
+	background:transparent;
+	width:60%;
+	height:40%;
+	position:absolute;
+	top:10%;
+	left:1%;
+}
+
+#staffimg
+{
+	margin:0;
+	padding:0%;
+	border-style:solid;
+	border-width:0.5%;
+	border-color:transparent;
+	background:transparent;
+	position:absolute;
+	top:30%;
+	left:1%;
+}
+
+#staffimg img
+{
+	height:25%;
+	width:30%;
+}
+
+#roomsimg
+{
+	margin:0;
+	padding:0%;
+	border-style:solid;
+	border-width:0.5%;
+	border-color:transparent;
+	background:transparent;
+	position:absolute;
+	top:30%;
+	left:1%;
+}
+
+#roomsimg img
+{
+	height:25%;
+	width:30%;
+}
+
+#staffinfo
+{
+	margin:0;
+	padding: 0%;
+	border-style: none;
+	border-width:0.5%;
+	border-color:#000000;
+	height:;
+	width:50%;
+	background: transparent;
+	
+	position: absolute;
+	right:12%;
+	top:30%;
+}
+
+#contactinfo h3::before
+{
+	content:"\1F57F";
+}
+
+#contactinfo h4::before
+{
+	content:"\1F4E7";
+}
+
+#contactinfo h5::before
+{
+	content:"\1F4E7";
+}

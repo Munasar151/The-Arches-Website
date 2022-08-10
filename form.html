@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+	<link href="css/nav.css" rel="stylesheet" type="text/css"/>
+	<link href="css/form.css" rel="stylesheet" type="text/css" />
+	<link href="css/font.css" rel="stylesheet" type="text/css"/>
+	<link rel="icon" type="image/png" href="webimg/archeslogo.png"/>
+
+  
+	<title> Form </title>
+	<meta charset="UTF-8">
+<style>
+	input:focus {
+  background-color: yellow;
+				}
+  </style>
+
+</HEAD>
+	<BODY>	
+		<div id="container">
+		<div id="simnav">	
+			
+						
+					<ul>
+				<li><a href="index.html" target="_self">Home</a></li>
+				<li><a href="staffpot.html" target="_self">Staff</a></li>
+				<li><a href="course.html" target="_self">Courses</a></li>
+				<li><a href="rooms.html" target="_self">Rooms</a></li>
+				<li><a href="#" class="active">Hire a Room</a></li>
+				<li><a href="spirit2021.html">Spirit2021</a></li>
+				<li><a href="contact.html" target="_self">Contact Us</a></li>
+					</ul>
+		</div>	
+	
+		
+<div id="logo">
+		<a href="index.html"> <img src="webimg/archeslogo.png" alt="Community centre logo."> </a>
+		
+		</div>
+		
+		<div id="slogan">
+		<h2>"Education is all a matter of building bridges. Ellison, R" </h2>
+		</div>
+<div id="form">
+			
+			<h1>Booking form:</h1>
+				<form action="MAILTO:s45469429@sccb.ac.uk" method="post" enctype="text/plain">
+				
+				<label style="font-family:arches">
+				
+				<label>Have you hired the facility before?</label>
+				<br>
+					<label for="answerYes">Yes</label>
+					<input type="radio" id="answerYes" name="visitAnswer" value="Yes">
+					
+					<label for="answerNo">No</label>
+					<input type="radio" id="answerNo" name="visitAnswer" value="No">
+					
+					<input type="radio" id="answerNotsure" name="visitAnswer" checked="checked" value="Not sure">
+					<label for="answerNotsure">No Sure</label>
+					<br>
+					<br>
+				<label>Are you a local?</label>
+<br>
+					<input type="radio" name="localAnswer" value="Yes">Yes
+					<input type="radio" name="localAnswer" value="No">No
+				<br>
+				<br>
+				<label>Are you a keyworker?</label>
+				<br>
+				<input type="radio" name="keyAnswer" value="Yes">Yes
+				<input type="radio" name="keyAnswer" value="No">No
+				<br>
+				<br>
+				<label> Title </label> <br>
+				
+				<input list="perTitle" name="Personal Title">
+				<datalist id="perTitle">
+				
+					<option value="Mr">
+					<option value="Mrs">
+					<option value="Mx"> 	
+					<option value="Dr">
+					<option value="Ms">
+					<option value="Miss">
+						
+				</datalist>
+				<br>	<br>
+
+			
+  
+				<label>&#42;First name:</label> <input type="text" required name="First name" pattern="[A-Za-z]{1,20}" title="Please enter a name">
+				<label>&#42;Surname:</label> <input type="text" required name="Surname" pattern="[A-Za-z]{1,20}" size="30" title="Please enter a name"> <br>
+<br>
+				<label>&#42;Email</label>
+					<input type="email" required name="pEmail" placeholder="example123@hotmail.com">
+<br>
+<br>
+				<label>&#42;Telephone</label>
+				<input type="tel" required pattern ="[0-9]{1,15}" placeholder="###############" title="Enter a number between 1 and 15 digits">
+<br>
+<br>				
+				<label>Date for venue</label>
+				<input type="datetime-local" >
+				<br>
+				<br>
+				<label>Start Time</label>
+				<input type="datetime-local" >	
+				<br>
+				<br>
+				<label>End time</label>
+				<input type="datetime-local">				
+				<br>
+				<br>
+				<label>Type of event</label>
+				<input list="eventType" name="Type of event">
+				<datalist id="eventType">
+
+				<option value="Wedding">
+				<option value="Concert">
+				<option value="School events">
+				<option value="Theatre">
+				<option value="Meeting room">
+				<option value="Other">
+				
+				</datalist>
+				<br>
+				<br>
+				<label>Amount of people</label>
+				<br>
+				<input type="radio" name="people" value="people">0-100<br>
+				<input type="radio" name="people" value="people">101-200<br>
+				<input type="radio" name="people" value="people">201-300<br>
+				<input type="radio" name="people" value="people">301-400<br>
+				<br>
+				<br>
+				<label>Choice of items?:</label><br>
+				<br>
+			<label>	Please select all that are relevant</label>
+<br>
+					<input type="checkbox" name="Hire" value="Baby Room">Baby Room<br>
+					<input type="checkbox" name="Hire" value="Kitchen">Kitchen <br>
+					<input type="checkbox" name="Hire" value="Music">Music <br>
+					<input type="checkbox" name="Hire" value="Canteen">Canteen <br>
+					<input type="checkbox" name="Hire" value="Parking">Parking <br>
+					<input type="checkbox" name="Hire" value="Sound and Video equipment">Sound and Video equipment<br>
+					<input type="checkbox" name="Hire" value="Stage">Stage <br>
+			
+<br>
+				<label>Additional comments:</label>
+<br>
+<br>
+					<textarea  name="Comments" rows="8" cols="10">
+					
+					</textarea>
+<br>
+<br>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+
+</form>	
+</div>
+
+		
+		<div id="footer">
+				<a href="http://www.instagram.com" target="_blank"> <img src="snetimages/instagram.png" alt="Instagram icon link to site"></a>
+				<a href="http://www.twitter.com" target="_blank"> <img src="snetimages/twitter.png" alt="Twitter icon link to site"></a>
+				<a href="http://www.facebook.com" target="_blank"> <img src="snetimages/facebook.png" alt="Facebook icon link to site"></a>
+				<a href="http://www.youtube.com" target="_blank"> <img src="snetimages/youtube.png" alt="Youtube icon link to site"></a>
+		<br>
+		<br>
+		<div id="contactinfo">
+		<h3>&#9474;0121 694 5000</h3>
+		<h5>&#9474;hello@ta.community</h5>
+		<h5>&#9474;hello@ta.org.uk</h5>
+		<br>
+		<br>
+		<br>
+		</div>
+		<div id="copyright">
+		<br>
+		<br>
+		<h3> &#169;2020 Arches Edu Learning Centre</h3>
+		</div>
+				</div>
+				</div>
+	</BODY>
+</HTML> 

@@ -1,0 +1,127 @@
+body
+{
+	background-color:#cc99cc;
+}
+
+box
+{
+	width:90%;
+}
+
+.carousel .carousel-item 
+{
+  height: 22em;	
+
+}
+
+.carousel-item img 
+{
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+	max-height: 15em;
+}
+
+
+.carousel-caption
+{
+	background:transparent;
+	top:45%;
+	bottom:10%;
+}
+	
+
+@font-face 
+
+	{
+		font-family:companyfont;
+		src: url("../fonts/companyfontarches.ttf");
+	}
+
+
+#para
+{
+	margin:0;
+	
+	height:35%;
+	width:100%;
+	position: absolute; 
+	top:10%;
+	left:0%;
+	background-color:transparent;
+	padding:0;
+	bottom:1%;
+	top:115%;
+}
+
+#videob
+{
+	margin:0;
+	
+	height:50%;
+	width:50%;
+	position: absolute; 
+	top:10%;
+	left:0%;
+	background-color:transparent;
+	padding:0;
+	bottom:1%;
+	top:102%;
+}
+
+
+#containere
+{
+	width: 100%;
+	height: 100%;
+	position: absolute; 
+	top:0%;
+	left:0%;
+	background-color::#cc99cc;	
+	padding:0;
+	margin:0;
+	
+}
+
+#containermid
+{
+	width: 100%;
+	height: 50%;
+	position: absolute; 
+	top:30%;
+	left:-5%;
+	background-color: transparent;
+	padding:0;
+	margin:0;
+}
+
+
+#containerbot
+{
+	width: 100%;
+	height: 10%;
+	position: relative; 
+	background-color: transparent;
+	padding:0;
+	margin:0;
+	padding:1%;
+	margin:2%;
+	top:5%;
+}
+
+
+#contactinfo h3::before
+{
+	content:"\1F57F";
+}
+
+#contactinfo h4::before
+{
+	content:"\1F4E7";
+}
+
+#contactinfo h5::before
+{
+	content:"\1F4E7";
+}

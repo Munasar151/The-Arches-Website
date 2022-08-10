@@ -1,0 +1,157 @@
+body
+{
+	/*This is the initial background colour for the background, which is purple.*/
+	background-color:#cc99cc;
+}
+
+.darkmode
+/*This will be the background colour for the darkmode, which is dark grey.*/
+{
+background-color:#999999;
+}
+
+#container
+{
+	margin: 0.5%;
+	padding: 0.5%;
+	border-style: transparent;
+	border-color: red;
+	width: 88%;
+	height: 40%;
+	position: absolute;
+	top: 1;
+	right:2%;
+}
+#contactinfo
+{
+	margin:0%;
+	padding:0%;
+	border-style:solid;
+	border-width:0.5%;
+	border-color:transparent;
+	width:50%;
+	height:28%;
+	position:absolute;
+	bottom:2%;
+	left:0%;
+	top:35%;
+}
+
+#copyright
+{
+	margin:0%;
+	padding:0%;
+	border-style:solid;
+	border-width:0.5%;
+	border-color:transparent;
+	background:transparent;
+	text-align:center;
+	width:50%;
+	height:25%;
+	position:absolute;
+	bottom:2%;
+	right:25%;
+	top:70%;
+}
+	#snetwork img 
+
+{
+	
+		width: 5%;
+		height: 5%;
+		
+		
+		border-style: solid;
+		border-width:1%;
+		border-color: #000000;
+		border-radius:50%;
+		
+		float:left;/* start from the left and put the images next to each other */
+		
+		margin-left:1%;
+		margin-top:3%;
+	
+}
+#footer img
+{
+		width: 9%;
+		height: 15%;
+		
+		
+		border-style: solid;
+		border-width:1%;
+		border-color: #000000;
+		border-radius:50%;
+		
+		float:left;/* start from the left and put the images next to each other */
+		
+		margin-left:1%;
+		margin-top:3%;
+		top:5%;
+}
+#footer
+{
+		margin: 0%;
+		padding: 0%;
+		border-style: solid;
+		border-width:0.5%;
+		border-color: #000000;
+		
+		background:#404040;
+		
+		width: 120%;
+		height: 80%;
+		
+		position: absolute;
+		bottom:2%;
+		left: -11.5%;
+		top:190%;
+		
+}
+
+#simnav
+{
+	margin: 0.5%;
+	padding: 0.5%;
+	border-style: transparent;
+	border-color: transparent;
+	width: 80%;
+	height: 5%;
+	position: absolute;
+	right:20%;
+	left:23%;
+	top:-5%;
+}
+
+.presentButton
+
+	{
+		display:inline-block;
+		background-color:#000;
+		
+		border:0.1em solid #FFFFFF;
+		
+		margin:0 0.3em 0.3em 0;
+		padding:0.35em 1.2em;
+		
+		border-radius:1em;
+		box-sizing: border-box;
+		text-decoration:none;
+
+		font-family:'Verdana',sans-serif;
+		font-weight:300;
+		color:#FFF;
+		text-align:center;
+
+		transition: all 0.2s;
+		
+	}
+
+.presentButton:hover
+	{
+		color:#000;
+		background-color:#FFF;
+		border:0.2em solid #C0C0C0;
+	}
+
+

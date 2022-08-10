@@ -1,0 +1,131 @@
+
+@font-face
+{
+	font-family:arches;
+	src: url(../fonts/companyfontarches.ttf);
+}
+
+.styleChg
+{
+	font-family:arches;
+	font-size:1.5vw;
+	font-style:none;
+	color:#000;
+	font-weight:bold;
+}
+
+h1
+{
+	font-family:arches;
+	font-size:2.5vw;
+	font-style:none;
+	text-align:center;
+	color:#000;
+	font-weight:bold;
+}
+
+h2
+{
+	font-family:arches;
+	font-size:2.5vw;
+	font-style:none;
+	font-weight:bold;
+	color:#000;
+}
+
+h3
+{
+	font-family:arches;
+	font-size:1.5vw;
+	font-style:none;
+	color:#fff;
+}
+
+h4
+{
+	font-family:arches;
+	font-size:1.5vw;
+	font-style:none;
+	color:#000;
+}
+
+h5
+{
+	font-family:arches;
+	font-size:1.5vw;
+	font-style:none;
+	color:#fff;
+}
+
+h6
+{
+	font-family:arches;
+	font-size:1.3vw;
+	font-style:none;
+	color:#fff;
+}
+
+p
+{
+	font-family:arches;
+	font-size:1.5vw;
+	font-style:none;
+	color:#000;
+}
+
+#center
+{
+	text-align:center;
+}
+
+#title
+{
+	font-family:arches;
+	margin: 0%;
+	padding: 0%;
+	border-style: none;
+	border-width:0.5%;
+	border-color: #000000;
+	
+	text-align:center;
+	
+	background: transparent;
+		
+	width: 60%;
+	height: 35%;
+		
+	position: absolute;
+	left:19%;
+	top:10%;
+}
+
+#simnav li a 
+{
+	font-family:arches;
+	font-size:2vw;
+	font-style:none;
+	color:#000;
+}
+
+#courseinfo li
+{
+	font-family:arches;
+	font-size:1.2vw;
+	font-style:none;
+	color:#000;
+}
+
+#home li
+{
+	font-family:arches;
+	font-size:1.2vw;
+	font-style:none;
+	color:#000;
+}
+
+#slogan h2
+{
+	font-size:1em;
+}
+
+
